@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kusaraja - Portfolio | Student Developer</title>
+    <meta name="description" content="Kusaraja's portfolio showcasing web development projects, programming skills, and academic achievements as a Computer Science student at Aditya University.">
+    <meta name="keywords" content="Kusaraja, portfolio, web developer, student, Aditya University, programming, JavaScript, Python, React">
+    <link rel="stylesheet" href="new_style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-content">
+                <div class="cosmic-text">Kusaraja</div>
+                <nav class="nav" id="nav">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#certificates" class="nav-link">Certificates</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <div class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-bg">
+            <div class="floating-element"></div>
+            <div class="floating-element delayed"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element delayed"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Welcome to My <span class="cosmic-text">Portfolio</span></h1>
+                    <p class="hero-subtitle">This is a brief introduction about myself and my work.</p>
+                    
+                    <div class="animated-text">
+                        <span class="static-text">HI I'M A </span>
+                        <span class="dynamic-text" id="dynamic-text">Developer</span>
+                        <!-- <span class="cursor">|</span> -->
+                    </div>
+                    
+                    <button class="cosmic-button" onclick="scrollToSection('projects')">View My Work</button>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="rotating-border"></div>
+                        <img src="./23P31A4252.jpg" alt="Kusaraja - Portfolio" class="profile-img">
+                        <div class="glow-overlay"></div>
+                    </div>
+                    <div class="floating-dots">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="cosmic-text">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="card cosmic-card">
+                        <h3 class="glow-text">Student Journey</h3>
+                        <p>I am currently a dedicated student at <span class="highlight">Aditya University</span>, pursuing my passion for technology and software development. My academic journey has been focused on building a strong foundation in computer science and programming.</p>
+                    </div>
+                    
+                    <div class="card cosmic-card">
+                        <h3 class="glow-text-secondary">Learning & Growth</h3>
+                        <p>Throughout my studies, I have developed expertise in multiple programming languages and frameworks. I believe in continuous learning and staying updated with the latest technologies in the ever-evolving field of software development.</p>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stats-grid">
+                        <div class="stat-card cosmic-card">
+                            <div class="stat-number glow-text">6+</div>
+                            <div class="stat-label">Certificates</div>
+                        </div>
+                        <div class="stat-card cosmic-card">
+                            <div class="stat-number glow-text-secondary">1+</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                        <div class="stat-card cosmic-card">
+                            <div class="stat-number accent-text">6+</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                        <div class="stat-card cosmic-card">
+                            <div class="stat-number glow-text">100%</div>
+                            <div class="stat-label">Dedication</div>
+                        </div>
+                    </div>
+                    
+                    <div class="card cosmic-card excellence-card">
+                        <h3>Academic Excellence</h3>
+                        <ul class="excellence-list">
+                            <li><span class="bullet glow"></span>Computer Science Student at Aditya University</li>
+                            <li><span class="bullet glow-secondary"></span>Focus on Software Development</li>
+                            <li><span class="bullet accent"></span>Passionate about Web Technologies</li>
+                            <li><span class="bullet glow"></span>Committed to Excellence</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mission-statement">
+                <div class="card cosmic-card">
+                    <h3 class="cosmic-text">My Mission</h3>
+                    <p>To leverage technology in creating innovative solutions that make a positive impact. I strive to combine academic knowledge with practical experience to build applications that solve real-world problems and contribute to the digital transformation of our society.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="cosmic-text">My Projects</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Showcasing my development skills through practical applications</p>
+            </div>
+            
+            <div class="project-showcase">
+                <div class="card cosmic-card project-card">
+                    <div class="project-image">
+                        <img src="./Screenshot 2025-09-05 174534.png" alt="Dynamic Web Application">
+                        <div class="project-overlay"></div>
+                        <div class="status-badge">Completed</div>
+                    </div>
+                    
+                    <div class="project-details">
+                        <h3 class="glow-text">Dynamic Web Application</h3>
+                        <p>A modern web application built with cutting-edge technologies, featuring responsive design, interactive user interface, and seamless user experience. This project demonstrates my skills in front-end development and modern web technologies.The Basic reason for this project is to level up your skills.</p>
+                        
+                        <div class="tech-tags">
+                            <h4 class="glow-text-secondary">Technologies Used</h4>
+                            <div class="tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                        
+                        <div class="project-features">
+                            <h4 class="glow-text">Key Features</h4>
+                            <ul>
+                                <li><span class="bullet glow"></span>Responsive Design</li>
+                                <li><span class="bullet glow"></span>Interactive UI/UX</li>
+                                <li><span class="bullet glow"></span>Modern Architecture</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="project-actions">
+                            <button class="cosmic-button">Live Demo <a href="https://level-updev.netlify.app/" target="_blank">⇗</a></button>
+                            <!-- <button class="cosmic-button-secondary">View Code</button> -->
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="coming-soon">
+                    <div class="card cosmic-card">
+                        <h3>More Projects Coming Soon</h3>
+                        <p>I'm constantly working on new projects and expanding my portfolio. Stay tuned for more exciting developments!</p>
+                        <div class="loading-spinner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="cosmic-text">Certificates</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Continuous learning through certified courses and training programs</p>
+            </div>
+            
+            <div class="certificates-grid" id="certificates-grid">
+                <!-- Certificates will be populated by JavaScript -->
+            </div>
+            
+            <div class="cert-summary">
+                <div class="summary-stats">
+                    <div class="summary-card cosmic-card">
+                        <div class="summary-icon">🏆</div>
+                        <div class="summary-number glow-text">6</div>
+                        <div class="summary-label">Total Certificates</div>
+                    </div>
+                    <!-- <div class="summary-card cosmic-card">
+                        <div class="summary-icon">🎓</div>
+                        <div class="summary-number glow-text">6</div>
+                        <div class="summary-label">Institutions</div>
+                    </div> -->
+                    <div class="summary-card cosmic-card">
+                        <div class="summary-icon">💻</div>
+                        <div class="summary-number glow-text">4</div>
+                        <div class="summary-label">Skill Areas</div>
+                    </div>
+                    <div class="summary-card cosmic-card">
+                        <div class="summary-icon">⏱️</div>
+                        <div class="summary-number glow-text">120+</div>
+                        <div class="summary-label">Learning Hours</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="cosmic-text">Technical Skills</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Comprehensive technical expertise across multiple programming languages and technologies</p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3 class="glow-text-secondary">Programming Languages</h3>
+                    <div class="skills-grid" id="programming-skills">
+                        <!-- Skills will be populated by JavaScript -->
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3 class="glow-text-secondary">Web Technologies</h3>
+                    <div class="skills-grid" id="web-skills">
+                        <!-- Skills will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+            
+            <div class="skills-summary">
+                <div class="card cosmic-card">
+                    <h3 class="cosmic-text">Continuous Learning Journey</h3>
+                    <p>I believe in the power of continuous learning and staying updated with the latest technologies. My skill set is constantly evolving as I explore new frameworks, tools, and programming paradigms to enhance my development capabilities.</p>
+                    
+                    <div class="learning-metrics">
+                        <div class="metric">
+                            <div class="metric-icon">💻</div>
+                            <div class="metric-value glow-text">6+</div>
+                            <div class="metric-label">Languages Mastered</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-icon">🚀</div>
+                            <div class="metric-value glow-text">1+</div>
+                            <div class="metric-label">Projects Completed</div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-icon">📚</div>
+                            <div class="metric-value glow-text">500+</div>
+                            <div class="metric-label">Learning Hours</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="cosmic-text">Get In Touch</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Let's connect and explore opportunities to collaborate on exciting projects</p>
+            </div>
+            
+            <div class="contact-cards">
+                <a href="https://www.linkedin.com/in/kusaraja-n-6a9251291/" class="contact-card cosmic-card" target="_blank">
+                    <div class="contact-icon">
+                        <img src="./linkdin.png" width="50px" alt="LinkedIn Icon">
+                    </div>
+                    <h3 class="contact-title">LinkedIn</h3>
+                    <p>Connect with me on LinkedIn</p>
+                    <div class="contact-line linkedin"></div>
+                </a>
+                
+                <a href="https://github.com/Kusaraja1324" class="contact-card cosmic-card" target="_blank">
+                    <div class="contact-icon">
+                        <img src="./Github.png" width="70px" alt="GitHub Icon">
+                    </div>
+                    <h3 class="contact-title">GitHub</h3>
+                    <p>Connect with me on GitHub</p>
+                    <div class="contact-line github"></div>
+                </a>
+                
+                <!-- <a href="https://mail.google.com/mail/u/0/#inbox" class="contact-card cosmic-card">
+                    <div class="contact-icon">📧</div>
+                    <h3 class="contact-title">Email</h3>
+                    <p>Connect with me on Email</p>
+                    <div class="contact-line email"></div>
+                </a> -->
+            </div>
+            
+            <!-- <div class="cta-section">
+                <div class="card cosmic-card">
+                    <h3>Ready to Start a Project?</h3>
+                    <p>I'm always open to discussing new opportunities and interesting projects. Whether you have a specific idea in mind or just want to connect, feel free to reach out!</p>
+                    <a href="mailto:kusaraja@example.com" class="cosmic-button">Send Me a Message</a>
+                </div>
+            </div> -->
+            
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-logo">
+                        <h3 class="cosmic-text">Kusaraja</h3>
+                        <p>Student Developer & Tech Enthusiast</p>
+                    </div>
+                    
+                    <div class="footer-links">
+                        <h4 class="glow-text-secondary">Quick Links</h4>
+                        <div class="quick-links">
+                            <a href="#about" onclick="scrollToSection('about')">About</a>
+                            <a href="#projects" onclick="scrollToSection('projects')">Projects</a>
+                            <a href="#skills" onclick="scrollToSection('skills')">Skills</a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-university">
+                        <h4 class="glow-text">Aditya University</h4>
+                        <p>Computer Science(AI&ML) Student</p>
+                    </div>
+                </div>
+                
+                <div class="footer-bottom">
+                    <p>&copy; 2024 Kusaraja. Crafted with 💙 and lots of ☕</p>
+                    <div class="footer-dots">
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                        <span class="dot"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contact-floating-bg">
+            <div class="floating-element"></div>
+            <div class="floating-element delayed"></div>
+            <div class="floating-element"></div>
+            <div class="floating-element delayed"></div>
+        </div>
+    </footer>
+
+    <script src="new_javas.js"></script>
+</body>
+</html>
