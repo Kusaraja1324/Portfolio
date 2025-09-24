@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
   {
     title: "JAVA",
     issuer: "JAVA FOUNDATIONS",
-    image: "JAVA.png",
+    image: "Java.png",
     level: "intermediate",
     color: "glow-secondary"
   },
